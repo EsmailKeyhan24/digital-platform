@@ -1,0 +1,2 @@
+@import "tailwindcss";
+/* npx @tailwindcss/cli -i ./src/App.css -o main.css --watch */
