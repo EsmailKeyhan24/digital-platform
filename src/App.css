@@ -1,2 +1,10 @@
 @import "tailwindcss";
 /* npx @tailwindcss/cli -i ./src/App.css -o main.css --watch */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    --Outfit:"Outfit", sans-serif;
+}
+
+body{
+    font-family: var(--Outfit);
+}
